@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Starbucks Coffe</title>
 </head>
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#" ><img src="img/logo.png" alt="logo" class="logo"></a>
             <ul>
@@ -22,12 +23,25 @@
             <div class="textBox">
                 <h2>Tome o seu café aqui <br>It's <span> Starbucks</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate nisi vel porta posuere. Integer in mi et neque viverra pretium et et nunc. Integer eleifend magna feugiat ex tincidunt, a dapibus metus viverra. Suspendisse at lorem eget tortor tristique lobortis sed nec libero. Maecenas ornare condimentum porttitor.</p>
-                <a href="#">Saiba mais</a>
+                <a href="#">LEARN MORE</a>
             </div>
             <div class="imgBox">
                 <img src="img/img1.png" class="starbucks" alt="img-1">
             </div>
         </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img/img1.png');trocaCor('#017143')"></li>
+            <li><img src="img/thumb2.png" onclick="imgSlider('img/img2.png');trocaCor('#eb7495')"></li>
+            <li><img src="img/thumb3.png" onclick="imgSlider('img/img3.png');trocaCor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        </ul>
     </section>
 </body>
+
+<script src="index.js"></script>
+
 </html>
