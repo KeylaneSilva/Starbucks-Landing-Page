@@ -5,6 +5,8 @@ function imgSlider(imagens){
 function trocaCor(cor){
     const circle = document.querySelector('.circle')
     circle.style.background = cor
+    const logo = document.querySelector('.sci')
+    logo.style.background = cor
 }
 
 function toggleMenu(){

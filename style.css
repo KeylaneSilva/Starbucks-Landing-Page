@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
 section{
@@ -37,8 +36,6 @@ header ul {
     position: relative;
     display: flex;
 }
-
-
 
 header ul li a{
     display: inline-block;
@@ -106,12 +103,13 @@ header ul li a{
     bottom: 20px;
     transform: translateX(-50%);
     display: flex;
+    margin-top: 120px;
     /* margin-right: 20px; */
 }
 
 .thumb li{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0px 20px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -133,6 +131,7 @@ header ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .sci li a {
